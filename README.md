@@ -12,6 +12,7 @@ The parser is not smart. It wont parse the following:
   - ...
   - type const -> use const type (const prefixed, example const char*)
   - function pointers
+  - afunction(void) -> remove void from the function header
 
 Please note that unsigned char becomes u_char and unsigned int becomes u_int, you have to add 
 ```c
